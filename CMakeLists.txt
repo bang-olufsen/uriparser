@@ -58,7 +58,7 @@ include(GNUInstallDirs)
 #
 # Configuration
 #
-option(BUILD_SHARED_LIBS "Build shared libraries (rather than static ones)" ON)
+option(BUILD_SHARED_LIBS "Build shared libraries (rather than static ones)" OFF)
 option(URIPARSER_BUILD_DOCS "Build API documentation (requires Doxygen, Graphviz, and (optional) Qt's qhelpgenerator)" OFF)
 option(URIPARSER_BUILD_TESTS "Build test suite (requires GTest >=1.8.0)" OFF)
 option(URIPARSER_BUILD_TOOLS "Build tools (e.g. CLI \"uriparse\")" OFF)
